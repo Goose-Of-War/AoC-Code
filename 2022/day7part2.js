@@ -1,0 +1,68 @@
+const fs = require('fs');
+
+const input = '$ cd /\n$ ls\ndir dfmhjhd\n307728 ghpqs\ndir hztjntff\ndir rvstq\ndir sjt\n120579 whhj.pqt\ndir wrmm\n$ cd dfmhjhd\n$ ls\n301486 ngtqtf\n13488 wfgqtw.sqr\n$ cd ..\n$ cd hztjntff\n$ ls\ndir cwsf\n288227 ftq.cjn\n176977 hwtj\n234858 nzdgz.mpw\n157857 rhs.mbd\ndir sthqhrc\n$ cd cwsf\n$ ls\ndir msr\n272534 mvfclz.srm\n226182 nldtb\n252294 qnwzs\n$ cd msr\n$ ls\n272198 hwtj\n$ cd ..\n$ cd ..\n$ cd sthqhrc\n$ ls\n45847 vzntwhzl.htf\n$ cd ..\n$ cd ..\n$ cd rvstq\n$ ls\n9707 bqg\n296975 frcqrdm\n232225 hztjntff\n29794 ldmtcrq.dcs\ndir nzdgz\ndir vtlj\ndir wmjbt\ndir wrmm\n28366 wrmm.cjh\ndir wrsmnpwf\n$ cd nzdgz\n$ ls\ndir fplqm\ndir hzpqfj\ndir hztjntff\ndir jcszc\ndir nzwzq\ndir prbptvql\n117527 sdnvpt\ndir tnpshhml\ndir tsjsfg\n$ cd fplqm\n$ ls\ndir cwsf\ndir cwzstq\n216299 mdcnwnng\n109253 nzdgz\n$ cd cwsf\n$ ls\ndir fld\n$ cd fld\n$ ls\ndir jdpz\ndir trjltfq\n$ cd jdpz\n$ ls\n299969 fvgpbf.lps\n$ cd ..\n$ cd trjltfq\n$ ls\n30081 tdzjl.jrw\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd cwzstq\n$ ls\n305925 gjfbqpr.jjv\n$ cd ..\n$ cd ..\n$ cd hzpqfj\n$ ls\n119289 hwtj\n108285 lsb\n246049 svttl.bml\ndir sztz\n75119 zjnll.zjl\n200316 zwj\n$ cd sztz\n$ ls\ndir mjmbld\ndir nzdgz\ndir wrmm\n$ cd mjmbld\n$ ls\n101870 hwtj\n$ cd ..\n$ cd nzdgz\n$ ls\n86208 hwtj\n$ cd ..\n$ cd wrmm\n$ ls\n242305 wrmm.dlb\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd hztjntff\n$ ls\n124971 flmb\ndir hztjntff\n152045 lsb\n109123 nlwltp.mbg\n247323 qvqqw\n$ cd hztjntff\n$ ls\ndir hztjntff\ndir tfdnvnn\n$ cd hztjntff\n$ ls\n72064 lsjgcqvl.jtq\n138507 rqbjcrpv\n$ cd ..\n$ cd tfdnvnn\n$ ls\n108268 vwtj\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd jcszc\n$ ls\n94496 frcqrdm\n247067 vmhfdm.lrc\n$ cd ..\n$ cd nzwzq\n$ ls\n6875 dbqbstqp\n$ cd ..\n$ cd prbptvql\n$ ls\n177069 zjnll.zjl\n$ cd ..\n$ cd tnpshhml\n$ ls\n227272 jjdplm.wjb\n$ cd ..\n$ cd tsjsfg\n$ ls\ndir fjhjl\n215211 hwtj\n4695 lsb\n250283 lvssbtc.fwq\n$ cd fjhjl\n$ ls\n54983 swqt.jsm\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd vtlj\n$ ls\n103236 cmwpcdrj.zlc\n1640 fllj.vfg\n155765 frcqrdm\n250655 hwtj\ndir hztjntff\n82919 hztjntff.gzd\ndir tzwfnn\ndir wrmm\n$ cd hztjntff\n$ ls\n58108 lsb\n$ cd ..\n$ cd tzwfnn\n$ ls\ndir grznq\n$ cd grznq\n$ ls\n282278 pwmsds.vzr\n$ cd ..\n$ cd ..\n$ cd wrmm\n$ ls\n39404 frcqrdm\n73284 pnj.rvq\n$ cd ..\n$ cd ..\n$ cd wmjbt\n$ ls\ndir bpqjsnr\ndir bqg\ndir cwsf\n31392 ths.lpc\ndir vlhr\ndir wrmm\ndir zgljrz\ndir zgt\n$ cd bpqjsnr\n$ ls\ndir bqg\n132830 fjp\n$ cd bqg\n$ ls\ndir hztjntff\ndir jvzn\n219730 srrqlqq.fss\n285971 tcqwqsgz.vrl\n195936 vbmczm.pbn\n191537 wrmm.bgq\n$ cd hztjntff\n$ ls\ndir bqg\ndir hljm\n$ cd bqg\n$ ls\n188558 bqg.grm\n$ cd ..\n$ cd hljm\n$ ls\ndir clblt\n$ cd clblt\n$ ls\ndir qdjj\n47245 vzrpqlgs.zng\n181205 wpcp.rcw\n$ cd qdjj\n$ ls\n152548 rcjzld.zfv\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd jvzn\n$ ls\n265757 clvj.bmr\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd bqg\n$ ls\n76100 cwsf\n147481 dcmqw\n137704 wcflzwbt.vvz\n212362 zbqlrscd.nrc\n212170 zqlbt.cdf\n$ cd ..\n$ cd cwsf\n$ ls\n242327 bqg.mwf\n$ cd ..\n$ cd vlhr\n$ ls\n156011 nzdgz.gct\n$ cd ..\n$ cd wrmm\n$ ls\ndir cwsf\ndir ljpn\ndir vzwtzl\ndir wjsf\n$ cd cwsf\n$ ls\ndir bstnjc\n169487 cwsf\n298251 hcsrh.nrb\n$ cd bstnjc\n$ ls\n11588 lsb\n$ cd ..\n$ cd ..\n$ cd ljpn\n$ ls\ndir cgghhhlf\n204262 gzh.gww\n171620 lqtbm.zbg\ndir qfwrrp\ndir smpltb\n$ cd cgghhhlf\n$ ls\n14765 nvbvs.bnv\n$ cd ..\n$ cd qfwrrp\n$ ls\n256670 hwtj\n$ cd ..\n$ cd smpltb\n$ ls\ndir bgvfj\n$ cd bgvfj\n$ ls\n65336 fprgmh.psg\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd vzwtzl\n$ ls\n53337 fggqjqvs\n$ cd ..\n$ cd wjsf\n$ ls\n308476 nzsm.dfd\n99153 swhv.ghz\n241163 thpzp\n$ cd ..\n$ cd ..\n$ cd zgljrz\n$ ls\n134867 fmndz.mhf\n$ cd ..\n$ cd zgt\n$ ls\n132031 hwtj\n218404 zjnll.zjl\n$ cd ..\n$ cd ..\n$ cd wrmm\n$ ls\ndir clt\n257641 cwc.wwg\ndir mjpw\ndir nlwpspl\ndir qwvjnwsf\n282920 zjnll.zjl\n$ cd clt\n$ ls\n62449 jlwr.bds\n$ cd ..\n$ cd mjpw\n$ ls\n147523 wrmm\n$ cd ..\n$ cd nlwpspl\n$ ls\ndir bmmmhnbc\n244465 cqbq.qmw\n199707 hwtj\ndir jjjdlj\n45952 lsb\n274021 mhprtvb.jnf\ndir vctf\n$ cd bmmmhnbc\n$ ls\ndir bldfbzr\ndir cwsf\ndir dmj\n202405 frcqrdm\n77128 hnrc.dqv\ndir hztjntff\n242794 lqslmd\n198590 lsb\n87647 ngh.ljt\ndir wmgwfvq\n$ cd bldfbzr\n$ ls\ndir bqg\n224279 frcqrdm\n304382 hcfv.jpr\ndir nzdgz\n24190 psvfl.hlg\ndir qjzh\n95318 qpb.nzq\n$ cd bqg\n$ ls\n187091 hcfv.jpr\n$ cd ..\n$ cd nzdgz\n$ ls\ndir nhmts\ndir tqhthh\n$ cd nhmts\n$ ls\n105545 cwhlrfv.rlz\n$ cd ..\n$ cd tqhthh\n$ ls\n81739 sfmcss.rps\n14262 wmlmfzg.bqt\n$ cd ..\n$ cd ..\n$ cd qjzh\n$ ls\n162159 cmn.rtc\n$ cd ..\n$ cd ..\n$ cd cwsf\n$ ls\ndir bqg\ndir frc\ndir jbgrgz\n78485 lsb\n102492 nzdgz.psw\n79482 phhvggtg.mlj\n156154 qrcwwtz.dzn\n$ cd bqg\n$ ls\n269163 hztjntff\n$ cd ..\n$ cd frc\n$ ls\ndir wrmm\n$ cd wrmm\n$ ls\ndir ctrbwhpr\ndir shmjt\n$ cd ctrbwhpr\n$ ls\n94535 wrmm.fjl\n$ cd ..\n$ cd shmjt\n$ ls\n6523 svmsvg.vvc\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd jbgrgz\n$ ls\n152890 bnlprltj\n60156 dttwfgs\ndir frvlnww\ndir qszdtg\n$ cd frvlnww\n$ ls\n297025 cjbnqm\n126118 mpnnb.wqb\n$ cd ..\n$ cd qszdtg\n$ ls\n286900 fptpmp.fqb\n210489 qbpwdhqt.wtw\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd dmj\n$ ls\ndir bqg\n60042 gncqrjnr.nrp\ndir rhd\n106478 smgjczbq.mbh\n$ cd bqg\n$ ls\n223960 wrmm\n2863 wrmm.jvg\n152468 zjnll.zjl\n$ cd ..\n$ cd rhd\n$ ls\n104913 frcqrdm\n248815 lsb\n$ cd ..\n$ cd ..\n$ cd hztjntff\n$ ls\n172094 bqg.nqg\n14817 frcqrdm\n207015 hcfv.jpr\n34358 jjdrw.stq\ndir mczrpf\ndir mzd\n$ cd mczrpf\n$ ls\n19896 frcqrdm\n273870 gvrb.lff\n281909 tht.bhc\n$ cd ..\n$ cd mzd\n$ ls\n26174 sgbhjft\n$ cd ..\n$ cd ..\n$ cd wmgwfvq\n$ ls\n130936 gzm.wzc\ndir hztjntff\n61943 jdp\ndir rvwhms\n$ cd hztjntff\n$ ls\ndir bqg\n273566 lsb\ndir vhdqhfqv\n305672 whrsqpc.nwz\ndir wrmm\n$ cd bqg\n$ ls\n14092 hcfv.jpr\n$ cd ..\n$ cd vhdqhfqv\n$ ls\n193016 qgr\n157253 vbrc\n$ cd ..\n$ cd wrmm\n$ ls\n62936 bqg.mpb\n264687 dswswdzq\ndir grlgcgrl\n127974 lsb\ndir nmm\n75041 tfdbrqfw.lbd\ndir tlrztbh\n$ cd grlgcgrl\n$ ls\n164027 nzdgz.ptd\n$ cd ..\n$ cd nmm\n$ ls\n101722 bqg\n$ cd ..\n$ cd tlrztbh\n$ ls\n16955 cwsf\n196934 lvdsbss.lpr\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd rvwhms\n$ ls\n314729 bcgphtl.bsc\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd jjjdlj\n$ ls\ndir dnpf\ndir mwlvndml\n$ cd dnpf\n$ ls\n129865 pgczcz\n128274 zjtv.jml\n$ cd ..\n$ cd mwlvndml\n$ ls\ndir nzdgz\n255297 vdsmgqdg.sbj\n$ cd nzdgz\n$ ls\n111500 hcfv.jpr\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd vctf\n$ ls\ndir bqg\n4316 cwsf.vnq\ndir gcgqr\n139151 hztjntff\n270316 hztjntff.wng\n285602 mzzgnztv\n299195 nzdgz\ndir vbqjbq\n$ cd bqg\n$ ls\n219667 lsb\n$ cd ..\n$ cd gcgqr\n$ ls\n71948 wbhbbr.rbg\n$ cd ..\n$ cd vbqjbq\n$ ls\ndir sltqnp\n$ cd sltqnp\n$ ls\n5768 nvdmjq\n20296 qtb.tcs\n303095 zndbj.pgm\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd qwvjnwsf\n$ ls\n118347 bqg.csn\ndir hqlv\n107689 hwtj\n66314 nzdgz.dmw\n94334 sjc\n$ cd hqlv\n$ ls\n250002 qcdpnc\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd wrsmnpwf\n$ ls\n205662 lsb\n$ cd ..\n$ cd ..\n$ cd sjt\n$ ls\ndir cwsf\ndir nzdgz\ndir qsd\ndir rdzsr\n66525 tqqvtzz.gzq\n260979 wnbvvz\ndir zgrf\ndir zmtmr\n$ cd cwsf\n$ ls\ndir dtpf\ndir fjtsb\n14887 frcqrdm\ndir gdnnndj\n281647 hztjntff.clc\n152053 jbls.grs\ndir mfbp\ndir nzdgz\ndir zclzqz\n$ cd dtpf\n$ ls\n278443 frcqrdm\n138750 fslt.mmj\n$ cd ..\n$ cd fjtsb\n$ ls\n142873 frcqrdm\n230248 lbhs\n116760 zjnll.zjl\n$ cd ..\n$ cd gdnnndj\n$ ls\ndir sljmpls\ndir zhn\n$ cd sljmpls\n$ ls\ndir cnzhjqbm\ndir cttgctwb\n307652 hwtj\ndir rwwmcmt\n107266 zjnll.zjl\n$ cd cnzhjqbm\n$ ls\n196818 frcqrdm\n$ cd ..\n$ cd cttgctwb\n$ ls\ndir bqg\n$ cd bqg\n$ ls\n270727 hcfv.jpr\n$ cd ..\n$ cd ..\n$ cd rwwmcmt\n$ ls\n77395 hcfv.jpr\n286056 nssl\n$ cd ..\n$ cd ..\n$ cd zhn\n$ ls\n114122 dbcpsqn\ndir mpfvnslm\ndir zlqns\n$ cd mpfvnslm\n$ ls\ndir qvtr\n$ cd qvtr\n$ ls\n83650 bqg.qqh\n$ cd ..\n$ cd ..\n$ cd zlqns\n$ ls\n36937 bgzjvvc.szm\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd mfbp\n$ ls\n199935 qwsb.vcd\n$ cd ..\n$ cd nzdgz\n$ ls\n121541 jlncd.vgb\n$ cd ..\n$ cd zclzqz\n$ ls\n274497 zjnll.zjl\n$ cd ..\n$ cd ..\n$ cd nzdgz\n$ ls\ndir qscww\ndir tdthnm\n$ cd qscww\n$ ls\n224250 frcqrdm\n196936 hcfv.jpr\n$ cd ..\n$ cd tdthnm\n$ ls\ndir hmq\ndir tcdm\n$ cd hmq\n$ ls\n172261 nhpfqc.tgj\n$ cd ..\n$ cd tcdm\n$ ls\n188168 lsb\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd qsd\n$ ls\ndir bqg\ndir pbfc\n$ cd bqg\n$ ls\n268716 bdpdlp.sht\n253174 jjwlmnd.czs\ndir mnrrmcc\n261171 nzdgz.rdw\n285026 sbfcj.wnh\n$ cd mnrrmcc\n$ ls\n33961 lsb\n$ cd ..\n$ cd ..\n$ cd pbfc\n$ ls\ndir hwbdld\n$ cd hwbdld\n$ ls\n178868 hztjntff.gql\n108145 stqzdh.zdn\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd rdzsr\n$ ls\n45590 zjnll.zjl\n$ cd ..\n$ cd zgrf\n$ ls\ndir bqg\ndir cbc\ndir cclw\ndir cwsf\ndir fph\n258332 hcfv.jpr\ndir hvvvv\ndir hztjntff\n238272 nzwzmlqt.nvh\ndir tqqqv\n$ cd bqg\n$ ls\n143934 pgnvtcv.csm\n44611 zjnll.zjl\n$ cd ..\n$ cd cbc\n$ ls\n119981 bznnrjtt\ndir dsmmcjtg\n259268 hsgwqqz.lzc\ndir wrmm\n$ cd dsmmcjtg\n$ ls\n150156 lmtdgnll.bln\n192882 nzdgz.pzz\n$ cd ..\n$ cd wrmm\n$ ls\n207747 psmgbf\n$ cd ..\n$ cd ..\n$ cd cclw\n$ ls\n245438 nzdgz.bdv\n$ cd ..\n$ cd cwsf\n$ ls\n314457 hwtj\n293169 zrjbrhs\n$ cd ..\n$ cd fph\n$ ls\ndir hztjntff\ndir mbgv\ndir nbzvd\ndir tzjtsqlj\n313411 vwmsbfd.btp\n$ cd hztjntff\n$ ls\n118509 nwjgfdt.llb\n262025 tnvsm.wsj\n$ cd ..\n$ cd mbgv\n$ ls\n890 zjnll.zjl\n$ cd ..\n$ cd nbzvd\n$ ls\n95080 zvjf.zjq\n$ cd ..\n$ cd tzjtsqlj\n$ ls\n224995 frcqrdm\n$ cd ..\n$ cd ..\n$ cd hvvvv\n$ ls\ndir zrpvfzz\n$ cd zrpvfzz\n$ ls\ndir nlcds\n280153 slcjdqw.wms\n$ cd nlcds\n$ ls\n80960 cwsf.qtp\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd hztjntff\n$ ls\n133260 cbl\ndir fwmvqhj\n179412 hcfv.jpr\ndir hnwn\n260329 hrwqwc.cbg\n60953 lsb\n255753 tcl.zrz\ndir wrmm\n$ cd fwmvqhj\n$ ls\ndir cwsf\n209425 fcf.ncz\n139449 gllwzh.dzc\ndir hjgpzwf\ndir njtbnt\n$ cd cwsf\n$ ls\n309282 nzdgz.bsg\n242967 wqzjrpp.pqs\n$ cd ..\n$ cd hjgpzwf\n$ ls\n157649 jcw\n$ cd ..\n$ cd njtbnt\n$ ls\ndir lvhqrjzn\ndir mgtjfhvf\n31491 nzdgz.sgc\n$ cd lvhqrjzn\n$ ls\n11465 rrfpsjm.fsd\n$ cd ..\n$ cd mgtjfhvf\n$ ls\ndir wmnwrn\n$ cd wmnwrn\n$ ls\n44518 hwtj\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd hnwn\n$ ls\n265411 bftcf.hdj\ndir bqg\n$ cd bqg\n$ ls\n96072 zdh.gpp\n$ cd ..\n$ cd ..\n$ cd wrmm\n$ ls\n206383 bngf\ndir jgdjp\n15886 lsb\n263238 nzdgz.tgj\n183663 ppfr.mzj\ndir qzlt\ndir tmzgrts\n256721 wrmm.dwl\n$ cd jgdjp\n$ ls\n165322 vdpnqwq\n$ cd ..\n$ cd qzlt\n$ ls\n44763 cwsf.qqz\ndir jcgt\ndir vmsnrhb\ndir wrmm\n$ cd jcgt\n$ ls\n199928 hnl.chj\n$ cd ..\n$ cd vmsnrhb\n$ ls\ndir csvhwb\ndir mnwwdf\ndir pzwvh\n$ cd csvhwb\n$ ls\n82347 bqg.qlb\n76688 dtl.nws\ndir hztjntff\n151835 nwwdct.qlc\ndir prqf\n$ cd hztjntff\n$ ls\n146900 ncgnjp.zqb\n123665 zjnll.zjl\n$ cd ..\n$ cd prqf\n$ ls\n143916 hcfv.jpr\n60506 hztjntff\n295807 jqwmltv.dmb\n282209 qmzpbn.ntn\n$ cd ..\n$ cd ..\n$ cd mnwwdf\n$ ls\n161210 nzdgz.mjn\n$ cd ..\n$ cd pzwvh\n$ ls\n28510 cwgtzgjd.ghf\ndir jbhjjjs\ndir lql\n25334 lsb\ndir wcrsqtz\n$ cd jbhjjjs\n$ ls\n48808 mhshl\n$ cd ..\n$ cd lql\n$ ls\ndir tzcjpj\n$ cd tzcjpj\n$ ls\n101686 frcqrdm\n$ cd ..\n$ cd ..\n$ cd wcrsqtz\n$ ls\n71563 bqg.zmh\n270956 qgw\ndir rngvpc\n$ cd rngvpc\n$ ls\n220454 smfzwq.qgr\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd wrmm\n$ ls\ndir mvrqsc\n$ cd mvrqsc\n$ ls\n249653 frcqrdm\n257853 nzdgz.qbf\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd tmzgrts\n$ ls\n229931 djssmcdz.nzj\ndir jrbjdghc\n131107 rjtsdjqt.mht\n$ cd jrbjdghc\n$ ls\n85458 frcqrdm\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd tqqqv\n$ ls\n162333 bqg.mdz\n5054 hcfv.jpr\n172441 nzdgz\ndir qmwpfp\n18969 wrmm\n$ cd qmwpfp\n$ ls\ndir cwsf\ndir lndh\ndir nvjsvvln\n$ cd cwsf\n$ ls\n18202 ngmsjfj.bvs\n124907 snhqbcqc\n149910 snj.ltq\n253218 vppzwd.ztb\ndir wlpcb\n$ cd wlpcb\n$ ls\n280918 vllc.ztt\n$ cd ..\n$ cd ..\n$ cd lndh\n$ ls\n146958 lvsqcvlr.bcq\n286212 vcpgqbl.wbw\n$ cd ..\n$ cd nvjsvvln\n$ ls\n288486 hcfv.jpr\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd zmtmr\n$ ls\n18654 cwsf.qpj\n89300 fprft.wbq\n66999 hwtj\n110810 lmtdjgpv\ndir sms\ndir vdn\ndir vdqmtjw\n$ cd sms\n$ ls\n85804 dtsgp\n197739 hcfv.jpr\n$ cd ..\n$ cd vdn\n$ ls\n159126 tnmhfscw\n168030 wrmm.dvb\n$ cd ..\n$ cd vdqmtjw\n$ ls\n291828 hztjntff\n$ cd ..\n$ cd ..\n$ cd ..\n$ cd wrmm\n$ ls\n212937 frcqrdm\n153487 zjnll.zjl';
+
+const dir = {
+	size: 0,
+	ls: {}
+};
+const cwdList = [];
+
+const accessCwd = function accessCurrentWorkingDirectory () {
+	let returnDir = dir['ls'];
+	cwdList.forEach(f => {
+		returnDir = returnDir[f]['ls'];
+	});
+	return returnDir;
+}
+
+function calculateSize (folder) {
+	for (let obj in folder.ls) {
+		if (folder.ls[obj].type === 'dir') calculateSize(folder.ls[obj]);
+		folder.size += folder.ls[obj].size;
+	}
+}
+
+function crawlForAnswer (folder) {
+	for (let obj in folder.ls) {
+		if (folder.ls[obj].type === 'dir') {
+			crawlForAnswer(folder.ls[obj]);
+			if (folder.ls[obj].size >= minRequirement) {
+				if (sizeToBeDeleted === undefined) sizeToBeDeleted = folder.ls[obj].size;
+				else if (sizeToBeDeleted > folder.ls[obj].size) sizeToBeDeleted = folder.ls[obj].size;
+			}
+		}
+	}
+}
+
+input.split('\n').forEach(line => {
+	const cwd = accessCwd();
+	if (line.startsWith('$ ls')) return
+	if (line.startsWith('$ cd')) {
+		let folder = line.split(' ')[2];
+		if (folder === '..') cwdList.pop();
+		else {
+			cwdList.push(folder);
+			cwd[folder] = {
+				type: 'dir',
+				size: 0,
+				ls: {}
+			};
+		}
+	}
+	else {
+		const [size, name] = line.split(' ');
+		if (!~~size) return;
+		else cwd[name] = {
+			type: 'file',
+			size: ~~size
+		};
+	}
+});
+
+calculateSize(dir);
+const minRequirement = dir.size - 40000000;
+let sizeToBeDeleted;
+crawlForAnswer(dir);
+
+console.log(dir.size, minRequirement, sizeToBeDeleted, dir.size - sizeToBeDeleted);
